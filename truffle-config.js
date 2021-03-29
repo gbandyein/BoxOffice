@@ -10,7 +10,7 @@ module.exports = {
       network_id: "*",
       // gas: 8003877,
       // gasPrice: 2300000000
-      gas: 999999999,
+      // gas: 999999999,
       //gasPrice: 1
     },
     rinkeby: {

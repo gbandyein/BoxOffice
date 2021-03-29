@@ -102,7 +102,7 @@ class Header extends Component {
                     <Modal.Content>{this.state.error}</Modal.Content>
                 </Modal>
                 <Menu.Menu position="left">
-                    <Popup trigger={<Menu.Item as="a" href="https://github.com/HeartBankStudio/BoxOffice" target="_blank"><Icon className="rotate" color="red" name="heart" fitted /></Menu.Item>} content="Help contribute to this open source project on GitHub!" />
+                    <Popup trigger={<Menu.Item as="a" href="https://github.com/gbandyein/BoxOffice" target="_blank"><Icon className="rotate" color="red" name="heart" fitted /></Menu.Item>} content="Help contribute to this open source project on GitHub!" />
                     <Link route="/"><Menu.Item active title="Go to home page" onClick={event => {if (this.props.page !== "studio") this.props.dimPage()}}><h4>HeartBank Studio</h4></Menu.Item></Link>    
                 </Menu.Menu>
                 {this.renderMenu()}
